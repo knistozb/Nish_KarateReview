@@ -1,0 +1,25 @@
+<testsuite failures="0" name="src/test/java/features/sampleKarate.feature" skipped="0" tests="3" time="0.062191">
+  <testcase classname="src.test.java.features.sampleKarate" name="Hello World scenario" time="0.010716">
+    <system-out>* print 'hello world' ..................................................... passed
+* print 'Nish Karate Automation Lab' ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.sampleKarate" name="Declare and Print variables" time="0.039661">
+    <system-out>* print 'hello world' ..................................................... passed
+* print 'Nish Karate Automation Lab' ...................................... passed
+* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* def tax = 10 ............................................................ passed
+* print 'total amount -&gt; ' + (balance + fee + tax) ........................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.sampleKarate" name="Calculator Scenario" time="0.011815">
+    <system-out>* print 'hello world' ..................................................... passed
+* print 'Nish Karate Automation Lab' ...................................... passed
+* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* def tax = 10 ............................................................ passed
+* print 'total amount -&gt; ' + (balance + fee + tax) ........................ passed
+* def a = 200 ............................................................. passed
+* def b = 20 .............................................................. passed
+* print 'multiply -&gt; ' + (a * b) .......................................... passed</system-out>
+  </testcase>
+</testsuite>

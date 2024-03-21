@@ -1,0 +1,58 @@
+<testsuite failures="0" name="src/test/java/features/headers.feature" skipped="0" tests="3" time="3.237634">
+  <testcase classname="src.test.java.features.headers" name="Pass the user request with headers" time="1.425814">
+    <system-out>Given header Content-Type = 'text/xml;charset=ISO-8859-1' ................. passed
+And header Accept-Encoding = 'gzip, deflate, br' .......................... passed
+And header Connection = 'keep-alive' ...................................... passed
+And header Expect = '100-continue' ........................................ passed
+And header User-Agent = 'PostmanRuntime/7.37.0' ........................... passed
+When url baseUrl + '/public/v1/users' ..................................... passed
+And path '6798509' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.headers" name="Pass the user request with headers part 2" time="0.907347">
+    <system-out>Given header Content-Type = 'text/xml;charset=ISO-8859-1' ................. passed
+And header Accept-Encoding = 'gzip, deflate, br' .......................... passed
+And header Connection = 'keep-alive' ...................................... passed
+And header Expect = '100-continue' ........................................ passed
+And header User-Agent = 'PostmanRuntime/7.37.0' ........................... passed
+When url baseUrl + '/public/v1/users' ..................................... passed
+And path '6798509' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def request_headers = {Content-Type : 'text/xml;charset=ISO-8859-1', Accept-Encoding : 'gzip, deflate, br', Connection : 'keep-alive', Expect : '100-continue', User-Agent : 'PostmanRuntime/7.37.0'} . passed
+Given headers request_headers ............................................. passed
+When url baseUrl + '/public/v1/users' ..................................... passed
+And path '6798509' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.headers" name="Pass the user request with headers part 3" time="0.904474">
+    <system-out>Given header Content-Type = 'text/xml;charset=ISO-8859-1' ................. passed
+And header Accept-Encoding = 'gzip, deflate, br' .......................... passed
+And header Connection = 'keep-alive' ...................................... passed
+And header Expect = '100-continue' ........................................ passed
+And header User-Agent = 'PostmanRuntime/7.37.0' ........................... passed
+When url baseUrl + '/public/v1/users' ..................................... passed
+And path '6798509' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def request_headers = {Content-Type : 'text/xml;charset=ISO-8859-1', Accept-Encoding : 'gzip, deflate, br', Connection : 'keep-alive', Expect : '100-continue', User-Agent : 'PostmanRuntime/7.37.0'} . passed
+Given headers request_headers ............................................. passed
+When url baseUrl + '/public/v1/users' ..................................... passed
+And path '6798509' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* configure headers = {Content-Type : 'text/xml;charset=ISO-8859-1', Accept-Encoding : 'gzip, deflate, br', Connection : 'keep-alive', Expect : '100-continue', User-Agent : 'PostmanRuntime/7.37.0'} . passed
+When url baseUrl + '/public/v1/users' ..................................... passed
+And path '6798509' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+</testsuite>
